@@ -37,7 +37,7 @@ public class PersonFormView extends Div {
     private Button cancel = new Button("Cancel");
     private Button save = new Button("Save");
 
-    private Binder<SamplePerson> binder = new Binder(SamplePerson.class);
+    private Binder<SamplePerson> binder = new Binder<>(SamplePerson.class);
 
     public PersonFormView(SamplePersonService personService) {
         addClassName("person-form-view");
