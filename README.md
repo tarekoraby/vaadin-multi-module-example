@@ -1,4 +1,4 @@
-#Vaadin Spring boot Multi Module Example
+# Vaadin Spring boot Multi Module Example
 
 
 This project is a multi-module Vaadin + Spring Boot project. It consists of two modules:
