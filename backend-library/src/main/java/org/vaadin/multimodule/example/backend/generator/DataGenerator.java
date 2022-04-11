@@ -1,17 +1,17 @@
 package org.vaadin.multimodule.example.backend.generator;
 
+import org.springframework.stereotype.Component;
 import org.vaadin.multimodule.example.backend.entity.SamplePerson;
 import org.vaadin.multimodule.example.backend.service.SamplePersonRepository;
 import com.vaadin.exampledata.DataType;
 import com.vaadin.exampledata.ExampleDataGenerator;
-import com.vaadin.flow.spring.annotation.SpringComponent;
 import java.time.LocalDateTime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 
-@SpringComponent
+@Component
 public class DataGenerator {
 
     @Bean
