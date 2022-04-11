@@ -4,7 +4,7 @@
 This project is a multi-module Vaadin + Spring Boot project. It consists of two modules:
 
 <ol>
-  <li>backend-library: includes JPA entities, repos, and services</li>
+  <li>backend: includes JPA entities, repos, and services</li>
   <li>vaadin-app: is the actual runnable application that depends on the backend library</li>
 </ol>
 

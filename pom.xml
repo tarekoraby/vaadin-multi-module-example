@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>backend-library</module>
+        <module>backend</module>
         <module>vaadin-app</module>
     </modules>
 
